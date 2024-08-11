@@ -3,6 +3,7 @@ import "./Navbar.css";
 import MenuIcon from "../../assets/menu-icon.svg";
 import CloseIcon from "../../assets/close-icon.svg";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,10 +33,42 @@ const Navbar = () => {
 
       <div className="nav-links">
         <ul className={isOpen ? "open" : "close"}>
-          <li>About</li>
-          <li>Work</li>
-          <li>Projects</li>
-          <li>Contacts</li>
+          <Link
+            to="introduction"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            <li>About</li>
+          </Link>
+          <Link
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            <li>Work</li>
+          </Link>
+          <Link
+            to="testimonies"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={1000}
+          >
+            <li>Reviews</li>
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            <li>Contacts</li>
+          </Link>
         </ul>
         <img
           src={MenuIcon}
