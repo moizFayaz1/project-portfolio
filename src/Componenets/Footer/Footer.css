@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: rgb(5 8 22);
+    border-top: 1px solid #aaa6c30d;
+}
+
+
+.footer .footer-title {
+   color: rgb(255 255 255 );
+   font-weight: 700;
+   margin: 0;
+}
+
+
+.footer .footer-social-links {
+    display: flex;
+    gap: 2rem;
+    transition: filter 0.3s ease;
+}
+
+.footer  .footer-social-links div img:hover {
+    filter: sepia(1) hue-rotate(180deg) saturate(5) brightness(0.8);
+
+}
+
+.footer .footer-social-links img {
+    vertical-align: text-bottom;
+}
+
+.footer .footer-social-links div {
+    cursor: pointer;
+}

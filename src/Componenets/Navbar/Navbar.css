@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 4rem;
+  background-color: rgb(5 8 22);
+}
+
+.navbar .logo-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .logo-heading img {
+  vertical-align: middle;
+}
+
+.navbar .logo-heading .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .nav-links ul li {
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  cursor: pointer;
+  color: rgb(170 166 195);
+
+  transition: all 0.1s ease;
+}
+
+.navbar .nav-links ul li:hover {
+  color: white;
+}
+
+.navbar .nav-links .menu-icon,
+.close-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    padding: 1.1rem 2rem;
+  }
+
+  .logo-heading .name .name-sm {
+    display: none;
+  }
+
+  .navbar .nav-links ul {
+    display: none;
+  }
+
+  .navbar .nav-links .menu-icon {
+    display: block;
+  }
+
+  :has(.open) .navbar .nav-links {
+    position: relative;
+  }
+
+  
+  :has(.open) .navbar .nav-links .menu-icon {
+    display: none;
+  }
+
+  :has(.open) .navbar .nav-links .close-icon {
+    display: block;
+  }
+
+  :has(.open) .navbar .nav-links ul {
+    display: block;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    font-size: 16px;
+    position: absolute;
+    background: linear-gradient(to right, #434343, #000);
+    top: 250%;
+    right: -50%;
+    z-index: 444;
+  }
+
+  :has(.open) .navbar .nav-links li {
+    padding: 0.4rem 0.8rem;
+  }
+
+}

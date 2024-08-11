@@ -1,0 +1,93 @@
+.contact {
+  height: 140vh;
+  position: relative;
+}
+
+.contact .contact-overlay-container {
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  width: calc(100% - 8rem);
+  margin: 4rem;
+  z-index: 1;
+}
+
+.contact-overlay {
+    background-color: rgb(16 13 37);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.contact .contact-title {
+  font-size: 18px;
+  color: rgb(170 166 195);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact .contact-heading {
+  font-size: 60px;
+  color: rgb(255 255 255);
+  font-weight: 900;
+  margin: 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.contact form label {
+  font-weight: 500;
+  color: rgb(255 255 255);
+  margin-bottom: -1.5rem;
+}
+
+.contact form input,
+textarea {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: rgb(255 255 255);
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: rgb(21 16 48);
+  border-style: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-family: inherit;
+}
+
+.contact form input::placeholder,
+textarea::placeholder {
+  color: rgb(170 166 195);
+}
+
+.contact form button {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: #050816;
+  color: rgb(255 255 255);
+  font-weight: 700;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(21 16 48);
+  border-radius: 0.75rem;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 660px) {
+  .contact .contact-overlay-container  {
+    width: calc(100% - 2rem);
+    margin: 4rem 1rem;
+  }
+}

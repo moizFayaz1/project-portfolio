@@ -1,0 +1,19 @@
+.teachnologies {
+  padding: 4rem;
+}
+
+.teachnology {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 5rem;
+}
+
+@media screen and (max-width: 660px) {
+    .teachnologies  {
+      padding: 4rem 1rem;
+    }
+  }

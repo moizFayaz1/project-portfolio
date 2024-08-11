@@ -1,0 +1,114 @@
+.experience {
+  padding: 4rem;
+}
+
+.experience .experience-heading {
+  font-size: 18px;
+  color: rgb(170 166 195);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.experience .experience-heading-sub {
+  font-size: 60px;
+  color: rgb(255 255 255);
+  font-weight: 900;
+  margin: 0;
+}
+
+.experience .experience-title {
+  font-size: 50px;
+  color: rgb(255 255 255);
+  font-weight: 900;
+  margin: 0;
+}
+
+.experience .experiences {
+  background: rgb(29, 24, 54);
+  color: rgb(255, 255, 255);
+  min-height: 1px;
+  border-radius: 0.25em;
+  box-shadow: 0 3px #ddd;
+  padding: 1rem 1.4rem;
+  margin: 2rem 0;
+  margin-left: 5rem;
+  position: relative;
+}
+
+.experience .experiences::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(0 47%, 100% 99%, 100% 0);
+    background: rgb(35, 38, 49);;
+    z-index: -1;
+}
+
+.experiences .company-logo {
+  padding: 8px;
+  border: 4px solid #e5e7eb;
+  border-radius: 50px;
+  background-color: gray;
+}
+
+.experiences .company-logo img {
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.experiences .experience-title {
+  color: rgb(255 255 255);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.experiences .experience-tag {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: rgb(170 166 195);
+  margin: 0;
+}
+
+.experiences ul li {
+  color: rgb(243 243 243);
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  margin-left: -25px;
+  padding: 3px 0;
+}
+
+.experiences .experience-date {
+  font-size: 0.875rem;
+  color: rgb(170 166 195);
+}
+
+.experience .vertical-line {
+  width: 4px;
+  height: 120%;
+  background-color: white;
+  position: absolute;
+  top: -10%;
+  left: -45px;
+}
+
+@media screen and (max-width: 660px) {
+  .experience {
+    padding: 4rem 1rem;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .experience .experience-heading-sub {
+    font-size: 40px !important;
+  }
+
+  .experience .one {
+    top: 0% !important;
+  }
+}

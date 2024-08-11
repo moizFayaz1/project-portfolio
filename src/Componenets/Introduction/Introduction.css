@@ -1,0 +1,93 @@
+.introduction {
+  padding: 4rem;
+}
+
+.introduction .introduction-mini-title {
+  font-size: 18px;
+  color: rgb(170 166 195);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.introduction .introduction-title {
+  font-size: 50px;
+  color: rgb(255 255 255);
+  font-weight: 900;
+  margin: 0;
+}
+
+.introduction .introduction-desc {
+  font-size: 17px;
+  line-height: 30px;
+  max-width: 48rem;
+  color: rgb(170 166 195);
+  margin: 0;
+}
+
+.introduction .intruduction-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  gap: 2rem;
+  position: relative;
+}
+
+.introduction .skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(21 16 48);
+  border-width: 2px;
+  min-height: 280px;
+  padding-top: 30px;
+  position: relative;
+  transform-style: preserve-2d;
+  transition: transform 0.1s;
+  transform: perspective(1000px) rotateX(var(--rotateX)) rotateY(var(--rotateY));
+}
+
+.introduction .skill-container::before {
+  content: "";
+  position: absolute;
+  top: 00%;
+  left: 00%;
+  right: 00%;
+  bottom: 00%;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  z-index: 999999999999999999;
+  -webkit-mask: linear-gradient(white, white) content-box,
+    linear-gradient(white, white);
+  mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.introduction .skill-container img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+.introduction .skill-container .skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(255 255 255);
+  text-align: center;
+  padding: 1.25rem 3rem;
+  /* margin: 0; */
+}
+
+
+@media screen and (max-width: 660px) {
+  .introduction  {
+    padding: 4rem 1rem;
+  }
+}
