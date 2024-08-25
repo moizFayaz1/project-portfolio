@@ -21,10 +21,10 @@ const Hero = () => {
         <div className="overlay-text">
           <p className="overlay-title">
             {`Hi, I'm`}
-            <span className="overlay-title-color">Musaddiq</span>
+            <span className="overlay-title-color">Moiz</span>
           </p>
           <p className="overlay-desc">
-            Software Engineer and Web Develope delivering{" "}
+            Software Engineer and Web Develope delivering
             <br id="overlay-desc-br" /> immersive digital solution with
             creativity and experties.
           </p>

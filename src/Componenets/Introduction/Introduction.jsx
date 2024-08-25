@@ -129,8 +129,8 @@ const Introduction = () => {
       </p>
       <p className="introduction-desc">
         I'm a skilled website developer with experience in React Js and
-        Javascript, and expertise in frameworks like Wordpress, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        Javascript, and expertise in frameworks like Node.js, and
+        React.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </p>
@@ -167,7 +167,7 @@ const Introduction = () => {
               alt=""
             />
             <p className="skill-title">
-              Wordpress <br /> Developer
+              Figma <br /> Enthusiast
             </p>
           </div>
         </div>

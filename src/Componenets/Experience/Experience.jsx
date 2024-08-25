@@ -101,7 +101,7 @@ const Experience = () => {
         <p className="experience-title">Software Engineer</p>
         <p className="experience-tag">AQMS Tech</p>
         <ul className="experience-desc">
-          <li>
+          {/* <li>
             WordPress Development: Designing and developing custom themes and
             plugins, ensuring responsive and user-friendly interfaces, and
             integrating various third-party tools and APIs.
@@ -110,7 +110,7 @@ const Experience = () => {
             PHP Development: Building dynamic web applications, writing clean
             and efficient code, and debugging and resolving issues to improve
             performance and functionality.
-          </li>
+          </li> */}
           <li>
             Project Management: Managing multiple projects simultaneously,
             collaborating with clients to understand their requirements, and
@@ -142,7 +142,7 @@ const Experience = () => {
             applications, implementing state management and optimizing
             performance for improved user engagement.
           </li>
-          <li>
+          {/* <li>
             Next.js: Delivered SEO-optimized websites with server-side
             rendering, improving search engine visibility and site performance.
           </li>
@@ -160,7 +160,7 @@ const Experience = () => {
             PHP: Developed robust backend solutions, including custom APIs and
             database integrations, streamlining site operations and improving
             data management.
-          </li>
+          </li> */}
         </ul>
         <p className="experience-date">Apr 2021 - Jul 2023</p>
         <div className="vertical-line"></div>

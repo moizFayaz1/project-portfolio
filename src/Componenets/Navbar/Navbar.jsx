@@ -27,7 +27,7 @@ const Navbar = () => {
           />
         </span>
         <span className="name">
-          Musaddiq <span className="name-sm">| Developer</span>
+          Moiz Fayaz <span className="name-sm">| Developer</span>
         </span>
       </div>
 

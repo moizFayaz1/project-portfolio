@@ -50,7 +50,6 @@ const Ball = (props) => {
         position={[0, 0, 1]}
         // rotation={[Math.PI / 1, 0, 0]}
         rotation={[0, Math.PI / 1, 0]}
-
         scale={0.8}
         map={decal}
         flatShading

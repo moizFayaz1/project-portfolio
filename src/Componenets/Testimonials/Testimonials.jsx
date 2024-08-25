@@ -41,7 +41,7 @@ const Testimonials = () => {
         <div className="testimonies">
           <p className="tistimony-title">"</p>
           <p className="testimony">
-            Muhammad done an excellent job, he was very quick and he is very
+             <b>Muhammad</b> done an excellent job, he was very quick and he is very
             friendly, I recommend u hire him.
           </p>
           <p className="testimonial-name">
@@ -53,7 +53,7 @@ const Testimonials = () => {
           <p className="tistimony-title">"</p>
           <p className="testimony">
             I've never met a web developer who truly cares about their clients'
-            success like Rick does.
+            success like <b>Moiz</b> does.
           </p>
           <p className="testimonial-name">
             <span className="sign">@</span> Areeb ALi
@@ -63,7 +63,7 @@ const Testimonials = () => {
         <div className="testimonies">
           <p className="tistimony-title">"</p>
           <p className="testimony">
-            After Rick optimized our website, our traffic increased by 50%. We
+            After <b>Moiz</b> optimized our website, our traffic increased by 50%. We
             can't thank them enough!
           </p>
           <p className="testimonial-name">
