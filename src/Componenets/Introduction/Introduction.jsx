@@ -170,6 +170,7 @@ const Introduction = () => {
               Figma <br /> Enthusiast
             </p>
           </div>
+          
         </div>
       </AnimateSkills>
     </div>

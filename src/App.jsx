@@ -7,6 +7,7 @@ import Testimonials from "./Componenets/Testimonials/Testimonials";
 import Planet from "./Componenets/Planet/Planet";
 import Contact from "./Componenets/Contact/Contact";
 import Footer  from "./Componenets/Footer/Footer";
+import Projects from "./Componenets/Projects/Projects";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Introduction />
       <Experience />
+      <Projects />
       <Teachnologies />
       <Testimonials />
       <Planet />

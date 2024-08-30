@@ -93,7 +93,7 @@ const Experience = () => {
     <div className="experience">
       <AnimatedText>
         <p className="experience-heading">What I have done so far</p>
-        <p className="experience-heading-sub">Work Experience. </p>
+        <p className="experience-heading-sub"> Work   Experience. </p>
       </AnimatedText>
 
       <AnimatedExperiences>

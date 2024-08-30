@@ -1,0 +1,61 @@
+.projects {
+  padding: 4rem;
+  
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+  margin-top: 1rem;
+}
+
+.project-container {
+  cursor: pointer;
+  width: 100%;  
+  overflow: hidden;
+  position: relative;
+}
+
+.projects .projects-heading {
+  font-size: 50px;
+  color: rgb(255 255 255);
+  font-weight: 900;
+  margin: 0;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-container:hover .project-overlay {
+  opacity: 1;
+}
+
+.projects .project-container img {
+  cursor: pointer;
+  border-radius: 0.925rem;
+  overflow: hidden;
+  transition: transform 0.7s;
+  width: 100%;
+
+}
+
+.projects .project-container img:hover {
+  transform: scale(1.1);
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 660px) {
+  .projects {
+    padding: 4rem 1rem;
+  }
+}
